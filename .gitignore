@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# ignore temp files
+_book/
+arabesque-doc.html
+arabesque-doc.Rmd

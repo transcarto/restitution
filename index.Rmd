@@ -1,0 +1,34 @@
+--- 
+title: "Restitution des travaux réalisés"
+author: "Collectif Transcarto"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  Collecte des commentaires apportés sur les travaux produits par les participants à l'école thématique TRANSCARTO.
+link-citations: yes
+github-repo: transcarto/restitution
+---
+
+<!-- index.Rmd has to have some content in it or it won't create an index.html 
+file. Make sure to keep this in so that index.html is included. -->
+
+# Présentation {-}
+
+Bienvenue sur ce document qui collecte les travaux réalisés par les participants à l'école thématique [TRANSCARTO](https://transcarto.sciencesconf.org/).
+
+Les travaux sont divisés en 3 parties:
+
+* [Les cartogrammes](#cartogrammes)
+* [Les flux et mouvements](#flux-mouvements)
+* [La réprésentation de l'Espace-Temps](#espace-temps)
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
